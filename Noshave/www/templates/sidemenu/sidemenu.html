@@ -1,0 +1,70 @@
+<ion-side-menus data-componentid="side-menu21" enable-menu-with-back-views="true" cache-view="false">
+  <ion-side-menu-content>
+    <ion-nav-bar hide-nav-bar="false" class="bar-positive" style="right:0">
+      
+      <ion-nav-buttons side="left" >
+        <button class="button button-icon button-clear ion-navicon" menu-toggle="left"></button>
+      </ion-nav-buttons>
+      
+ 
+      <ion-nav-title align-title="left" style="width:100%;float:left;right:0" >
+          Home
+       </ion-nav-title>
+    </ion-nav-bar>
+    <ion-nav-view name="menuContent" animation="slide-left-right">
+    </ion-nav-view>
+  </ion-side-menu-content>
+  <ion-side-menu  side="left"  style="background-color:#ebf0f2">
+    <ion-header-bar hide-nav-bar="false" style="background-color:#fff;min-height: 130px; padding-top:1.5em;">
+<img style="margin-left:15%;margin-top:-3px;height:70%;width:70%" src="img/logo.svg">
+    </ion-header-bar>
+    <ion-content padding="false" scroll="false" class="side-menu-left has-header" style="top: 138px;left: 10px;">
+  <div style="width:100%;margin-top:10%;margin-bottom:10%">
+  <a menu-close ui-sref="app.home" style="text-decoration:none">
+<div style="margin-left:5%;color:#6B6B6B;font-size:14px">Home</div>
+      </a>
+      </div>
+      <div style="width:100%;margin-top:10%;margin-bottom:10%">
+        <a menu-close ui-sref="app.questions" style="text-decoration:none">
+<div style="margin-left:5%;color:#6B6B6B;font-size:14px">New Questions</div>
+      </a>
+      </div>
+      <div  style="width:100%;margin-bottom:10%">
+        <a menu-close ui-sref="app.message" style="text-decoration:none">
+        <div style="margin-left:5%;color:#6B6B6B;font-size:14px">SpiriTalk</div>
+       </a>
+      </div>
+      <div style="width:100%;margin-bottom:10%" >
+        <a menu-close ui-sref="app.questionBank" style="text-decoration:none">
+       <div style="margin-left:5%;color:#6B6B6B;font-size:14px">Question Bank</div>
+      </a>
+      </div>
+      <div style="width:100%;margin-bottom:10%">
+        <a menu-close ui-sref="app.allResults" style="text-decoration:none">
+        <!--<img src="img/drawer/ic_reprots.svg" style="float:left;margin-left:10%;margin-right:10%;color:black;height:8%;width:8%">-->
+       <div style="margin-left:5%;color:#6B6B6B;font-size:14px">Progress</div>
+      <!--<button  style="margin-left:10%;width:50%;color:#6B6B6B;;font-size:14px;"
+             class="button button-dark  button-block button-clear" data-componentid="button19" menu-close nav-clear ui-sref="login"> Progress
+      </button>-->
+      </a>
+</div>
+<div style="width:100%;margin-bottom:10%">
+        <a menu-close ng-click="logout()" style="text-decoration:none">
+        <!--<i style="float:left;color:#6B6B6B;font-size: 1.8em;margin-left:10%;margin-right:10%;font-weight: 900;" class="ion-log-out"></i>-->
+       <div style="margin-left:5%;color:#6B6B6B;font-size:14px">Log out</div>
+      <!--<button  style="margin-left:10%;width:50%;color:#6B6B6B;;font-size:14px;"
+             class="button button-dark  button-block button-clear" data-componentid="button19" menu-close nav-clear ui-sref="login"> Progress
+      </button>-->
+      </a>
+</div>
+      <!--<button  style="margin-left:50%;color:#6B6B6B;font-size:17px;text-align:left;margin:0px !important;"
+              class="button button-dark  button-block button-clear icon-left ion-ios-undo-outline"
+              data-componentid="button19" ng-click="logout()" menu-close nav-clear ui-sref="login"> Logout
+      </button>-->
+
+    </ion-content>
+
+  </ion-side-menu>
+</ion-side-menus>
+
+Blog  
